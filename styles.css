@@ -1,0 +1,608 @@
+body {
+  text-align: center;
+  color: #F7F6DC;
+  background-color: #F7F6DC;
+}
+
+h1 {
+  /* font-family: 'Big Shoulders Stencil Display', cursive; */
+  font-family: 'ARIAL';
+  letter-spacing: 3px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+form {
+  text-align: left;
+}
+
+.p-small-heading {
+  /* color: #F7F6DC; */
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.p-big-italic-heading {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3rem;
+}
+
+
+/* section {
+  width: 100%;
+} */
+
+.banner {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+.wand-sticky-top-bar {
+  text-align: left;
+  width: 100%;
+  height: 70px;
+  background-image: linear-gradient(to top, rgba(85,132,172,0.8), rgba(85,132,172,0.8));
+  /* background-color: #1f4468;
+  opacity: 0.6; */
+}
+
+.title-div {
+  /* position: absolute; */
+  display: inline-block;
+  width: 60%;
+  color: #F7F6DC;
+  /* background-color: #1f4468; */
+  /* border-color: white;
+  border-style: solid;
+  border-width: 2px; */
+  margin: 0 0 0 2%;
+  padding: 1.5% 0 0 0;
+  z-index: 5;
+  opacity: initial;
+}
+
+.title-h1 {
+  font-size: 1.4rem;
+}
+
+.align-btn-right {
+  display: inline-block;
+}
+
+.register-btn {
+  display: inline-block;
+  width: 260px;
+  background-color: transparent;
+  border-color: #F7F6DC;
+  border-style: solid;
+  border-width: 2px;
+  color: #F7F6DC;
+  letter-spacing: 3px;
+  margin: 0 0 0 90%;
+  padding: 0.5% 1% 0.5% 1%;
+}
+
+
+.land-img-container {
+  width: 100%;
+  height: 580px;
+}
+
+.landing-graphic-img {
+  position: absolute;
+  top: -1200px;
+  left: 0;
+  width: 100%;
+  /* clip: rect(300px, auto, auto, 0); */
+  z-index: -1;
+}
+
+/* .h2-welc {
+  margin-top: 12%;
+} */
+
+.white-border-spaced {
+  width: 50%;
+  /* border-color: white;
+  border-style: solid;
+  border-width: 2px; */
+  padding: 2%;
+  margin: 8% auto 0 auto;
+}
+
+.logo-img-landing {
+  width: 350px;
+}
+
+.box-bg-inside {
+  height: 25%;
+  /* box below + 200 */
+  background-color: #1f4468;
+  padding-top: 8%;
+  opacity: 0.8;
+}
+
+
+.land-title-box {
+  height: 2%;
+  width: 80%;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding-top: 2%;
+  margin: 0 auto 0 auto;
+}
+
+.h2-dev-loc {
+  font-size: 1rem;
+}
+
+.p-land-tag {
+  font-size: 0.8rem;
+  margin-top: 2%;
+}
+
+.p-land-loc {
+  font-size: 0.7rem;
+}
+
+.h2-disc-mr {
+  margin-top: 3%;
+}
+
+.landing-vert-line {
+  /* this doesn't like being a % for some reason */
+  height: 100px;
+  width: 50%;
+  border-color: white;
+  border-right-style: solid;
+  border-width: 3px;
+
+}
+
+
+
+.intro-text {
+  background-color: #F7F6DC;
+  color: #5584AC;
+  padding: 2% 0 2% 0;
+}
+
+.p-intro-body {
+  font-size: 1.7rem;
+  padding: 4% 10% 4% 10%;
+}
+
+.p1-intro {
+  color: #5584AC;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.p2-intro {
+  color: #5584AC;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.p3-intro {
+  color: #5584AC;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.development-image {
+  color: #F7F6DC;
+  height: 550px;
+  background-image: url("images/mul-water-bg-img-2.png");
+  background-size: 100%;
+}
+
+.welc-text-container {
+  text-align: left;
+  width: 80%;
+  padding: 20% 0 3% 0;
+  margin: auto;
+}
+
+.welc-img-container {
+  margin: 16% 0 0 0;
+}
+
+.welc-img {
+  width: 75%;
+}
+
+
+.highlight-details-section {
+  color: #5584AC;
+  text-align: left;
+  height: 400px;
+
+}
+
+.coffee-img {
+  width: 75%;
+  margin: 8% 0 0 10%;
+}
+
+.hlight-text-container {
+  margin: 7% 0 0 0;
+}
+
+.icon-img {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.mul-stamp-logo-img {
+  width: 200px;
+  margin: -70% 0 20% 15%;
+}
+
+.wd-150 {
+  width: 150px;
+}
+
+.hlight-tophalf-inline-left {
+  display: inline-block;
+}
+
+.hlight-tophalf-inline-right {
+  display: inline-block;
+}
+
+.hlight-btmhalf-inline-left {
+  display: inline-block;
+  margin-bottom: 3%;
+}
+
+.hlight-btmhalf-inline-right {
+  display: inline-block;
+  margin-bottom: 3%;
+}
+
+/* .dev-img-container-div {
+  position: relative;
+  height: 500px;
+  width: 750px;
+  background-image: url("images/albany-house-hr-2-1800-px.jpg");
+  padding-top: 20px;
+  margin-left: 150px;
+  z-index: 2;
+}
+
+.dev-img-inner-img-border {
+  position: relative;
+  height: 460px;
+  width: 710px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  margin-left: 20px;
+} */
+
+.brand-colour-border-spaced {
+  position: relative;
+  width: 460px;
+  border-color: #1f4468;
+  border-style: solid;
+  border-width: 2px;
+  padding: 2%;
+  margin: -450px 200px 0 auto;
+  z-index: 3;
+}
+
+.dev-desc-box-bg-inside {
+  /* position: relative; */
+  height: 350px;
+  /* box below + 200 */
+  background-color: #1f4468;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 30px;
+  /* opacity: 0.8; */
+  /* z-index: 6; */
+}
+
+
+
+
+.location-text {
+  height: 900px;
+  /* margin-top: -50px; */
+}
+
+
+.loc-img-container-div {
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(247,246,220,1));
+}
+
+.loc-graphic-img {
+  position: relative;
+  width: 100%;
+  /* clip: rect(300px, auto, auto, 0); */
+
+  z-index: -1;
+}
+
+.loc-desc-white-colour-border-spaced {
+  position: relative;
+  width: 600px;
+  /* border-color: white;
+  border-style: solid;
+  border-width: 2px; */
+  padding: 2%;
+  margin: -35% 0 0 55%;
+  z-index: 2;
+}
+
+.loc-desc-box-bg-inside {
+  /* position: relative; */
+  height: 500px;
+  /* box below + 200 */
+  color: #F7F6DC;
+    background-image: linear-gradient(to top, rgba(85,132,172,0.8), rgba(85,132,172,0.8));
+  /* background-color: #5584AC; */
+  text-align: left;
+  padding: 70px 90px 0 70px;
+
+  /* opacity: 0.8; */
+  /* z-index: 6; */
+}
+
+.transport-intro-section {
+  color: #5584AC;
+  height: 500px;
+
+}
+
+.transp-intro-text-container {
+  text-align: left;
+  width: 80%;
+  padding: 10% 0 3% 0;
+  margin: auto;
+}
+
+
+.can-wat-tube-img-container {
+  text-align: left;
+  margin: 2% 0 0 0;
+}
+
+.can-wat-tube-img {
+  width: 90%;
+}
+
+.transport-times-section {
+  color: #5584AC;
+  text-align: left;
+  padding: 4% 5% 4% 5%;
+}
+
+.transp-icon {
+  width: 60px;
+  margin-bottom: 2%;
+}
+
+
+.location-map {
+  background-color: #F7F6DC;
+  color: #5584AC;
+  padding-top: 80px;
+}
+
+.loc-heading-div {
+  width: 400px;
+  background-color: #F7F6DC;
+  border-color: #5584AC;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 auto 0 auto;
+  padding: 0.5% 0 0 0;
+}
+
+.loc-desc-heading-h1 {
+  width: 100px;
+  margin: 0 auto 0 auto;
+}
+
+.map-placeholder {
+  height: 500px;
+  padding-top: 200px;
+}
+
+
+
+
+
+.transport-links {
+  color: #5584AC;
+  background-color: white;
+  padding: 3% 5% 3% 5%;
+
+}
+
+.transp-heading-div {
+  width: 400px;
+  background-color: white;
+  border-color: #5584AC;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 0 0 5.5%;
+  padding: 0.5% 0 0 0;
+}
+
+.transp-times-underline-div {
+  width: 300px;
+  /* border-bottom-style: solid;
+  border-color: #1f4468;
+  border-width: 2px; */
+  margin-bottom: 1%;
+}
+
+.tr-ti-spacer-width {
+  display: inline-block;
+  width: 190px;
+}
+
+.tr-ti-align-right {
+  display: inline-block;
+}
+
+.transp-times {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.transp-links-img-container-div {
+  /* position: relative; */
+  height: 440px;
+  width: 650px;
+  background-image: url("images/guy-on-train-platform-web.jpg");
+  /* margin-left: 150px; */
+  /* z-index: 2; */
+}
+
+.transp-links-img-fade {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+  padding-top: 20px;
+}
+
+
+
+.transp-links-img-inner-img-border {
+  position: relative;
+  height: 400px;
+  width: 610px;
+  /* top: 20;
+  left: 20; */
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  /* margin-top: 20px; */
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+.registration-form {
+  color: #5584AC;
+  background-color: #F7F6DC;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.reg-heading-div {
+  width: 400px;
+  background-color: #5584AC;
+  color: white;
+  margin: 0 auto 0 auto;
+  padding: 0.5% 0 0 0;
+}
+
+.wandle-form-container-div {
+  width: 90%;
+  border-color: #5584AC;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 auto 50px auto;
+}
+
+.wandle-form {
+  padding: 100px 0 100px 0;
+}
+
+.wandle-form-row {
+  width: 600px;
+  margin: 0 auto 10px auto;
+}
+
+.form-disclaimer {
+  text-align: left;
+  margin-left: 10%;
+}
+
+
+
+
+
+
+.wandle-text {
+  width: 100%;
+
+}
+
+
+.abt-wandle-container-div {
+  background-image: url("images/couple-in-new-home-web.jpg");
+
+}
+
+.abt-wandle-transp-bg-color {
+  background-image: linear-gradient(to bottom, rgba(85,132,172,0.8), rgba(85,132,172,1));
+  /* background-color: #1f4468; */
+  /* opacity: 0.8; */
+  padding: 3% 10% 10% 10%;
+}
+
+.wandle-logo-abt {
+  width: 250px;
+  padding-bottom: 3%;
+  /* opacity: 2; */
+}
+
+.abt-wandle-body-div {
+  color: #F7F6DC;
+  /* opacity: 1; */
+}
+
+.wandle-tag-abt {
+  font-size: 2.6rem;
+
+}
+
+.wandle-body-abt {
+  text-align: left;
+  font-size: 0.8rem;
+  margin-top: 3%;
+
+}
+
+
+
+
+
+
+
+.footer {
+  background-color: #5584AC;
+  padding: 3% 15% 5% 15%;
+}
+
+.wandle-logo-foot {
+  width: 130px;
+  margin-bottom: 3%;
+}
+
+.wandle-disclaimer {
+  font-size: 0.5rem;
+  margin-bottom: 2%;
+
+}
+
+.YCD-Tag {
+  font-size: 0.7rem;
+}
