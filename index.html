@@ -46,7 +46,7 @@
   <section class="banner" id="">
   <!-- possibly hide this on sml screens and show copied elements in section below -->
     <div class="wand-sticky-top-bar">
-      <div class="title-div">
+      <div id="mul-reg-title" class="title-div">
         <h1 class="title-h1">SHARED OWNERSHIP | LAUNCHING SOON</h1>
       </div>
       <div class="align-btn-right">
@@ -104,6 +104,7 @@
 
   <section class="development-image" id="">
 
+
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-6">
@@ -120,11 +121,13 @@ hottest postcodes, SE16.</p>
       </div>
       <div class="col-lg-6">
           <div class="welc-img-container">
-            <img class="welc-img" src="images/mul-welcome-img.jpg" alt="welcome-img">
+            <img id="desc-welc-img" class="welc-img" src="images/mul-welcome-img.jpg" alt="welcome-img">
           </div>
       </div>
     </div>
   </div>
+
+
 
     <!-- <div class="dev-img-container-div">
       <div class="">
@@ -169,31 +172,34 @@ hottest postcodes, SE16.</p>
 
   </section>
 
+  <img id="mob-welc-img" class="welc-img" src="images/mul-welcome-img.jpg" alt="welcome-img">
+
+
   <section class="highlight-details-section">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6">
             <div class="coffee-img-container">
-              <img class="coffee-img" src="images/coffee-img.jpg" alt="welcome-img">
+              <img id="mul-coffee-img" class="coffee-img" src="images/coffee-img.jpg" alt="welcome-img">
             </div>
         </div>
         <div class="col-lg-6">
           <div class="hlight-text-container">
             <div class="hlight-tophalf">
               <div class="hlight-tophalf-inline-left">
-                <p class="p1-intro">THE MULBERRY</p>
-                <div class="hlight-btmhalf-inline-left"><img class="icon-img" src="images/loc-icon.png" alt="location-icon"></div><div class="hlight-btmhalf-inline-right"><span>CANADA WATER, SE16</span></div><br>
-                <div class="hlight-btmhalf-inline-left"><img class="icon-img" src="images/bed-icon.png" alt="bed-icon"></div><div class="hlight-btmhalf-inline-right"><span>1, 2 & 3 BEDROOM APARTMENTS</span></div><br>
-                <div class="hlight-btmhalf-inline-left"><img class="icon-img" src="images/house-icon.png" alt="house-icon"></div><div class="hlight-btmhalf-inline-right"><span>AVAILABLE FOR SHARED OWNERSHIP</span></div><br>
+                <p class="p1-intro p1-mob">THE MULBERRY</p>
+                <div class="hlight-btmhalf-inline-left"><img class="icon-img" src="images/loc-icon.png" alt="location-icon"></div><div class="hlight-btmhalf-inline-right"><span class="hlight-det-mob">CANADA WATER, SE16</span></div><br>
+                <div class="hlight-btmhalf-inline-left"><img class="icon-img" src="images/bed-icon.png" alt="bed-icon"></div><div class="hlight-btmhalf-inline-right"><span class="hlight-det-mob">1, 2 & 3 BEDROOM APARTMENTS</span></div><br>
+                <div class="hlight-btmhalf-inline-left"><img class="icon-img" src="images/house-icon.png" alt="house-icon"></div><div class="hlight-btmhalf-inline-right"><span class="hlight-det-mob">AVAILABLE FOR SHARED OWNERSHIP</span></div><br>
               </div>
               <div class="hlight-tophalf-inline-right">
                 <img class="mul-stamp-logo-img" src="images/mul-stamp-logo.png" alt="mulberry-stamp-logo">
               </div>
             </div>
             <div class="hlight-btmhalf">
-              <div class="hlight-btmhalf-inline-left wd-150"><span>Prices from:</span></div><div class="hlight-btmhalf-inline-right"><span>£TBC</span></div><br>
-              <div class="hlight-btmhalf-inline-left wd-150"><span>Min. Equity:</span></div><div class="hlight-btmhalf-inline-right"><span>£TBC</span></div><br>
-              <div class="hlight-btmhalf-inline-left wd-150"><span>Min. Share %:</span></div><div class="hlight-btmhalf-inline-right"><span>TBC%</span></div><br>
+              <div class="hlight-btmhalf-inline-left wd-150"><span class="hlight-det-mob">Prices from:</span></div><div class="hlight-btmhalf-inline-right"><span class="hlight-det-mob">£TBC</span></div><br>
+              <div class="hlight-btmhalf-inline-left wd-150"><span class="hlight-det-mob">Min. Equity:</span></div><div class="hlight-btmhalf-inline-right"><span class="hlight-det-mob">£TBC</span></div><br>
+              <div class="hlight-btmhalf-inline-left wd-150"><span class="hlight-det-mob">Min. Share %:</span></div><div class="hlight-btmhalf-inline-right"><span class="hlight-det-mob">TBC%</span></div><br>
             </div>
           </div>
         </div>
@@ -267,6 +273,7 @@ or bicycle.</p>
         <div class="transp-times-underline-div">
           <div class="tr-ti-spacer-width">Clapham Junction</div><div class="tr-ti-align-right">29 mins</div>
         </div>
+        <br>
       </div>
       <div class="col-lg-6">
         <img class="transp-icon" src="images/rail-icon.png" alt="rail-icon">
@@ -318,7 +325,9 @@ or bicycle.</p>
   </div> -->
     <!-- FOR MAP -->
     <!-- <img src="https://maps.googleapis.com/maps/api/staticmap?center=FXX3+HV,London&zoom=15&key=AIzaSyDs-_mP9CzPDt0LzvDxFcwXmA9cA7yw0Xo&signature=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" alt=""> -->
-    <img class="goog-static-map" src="https://maps.googleapis.com/maps/api/staticmap?center=51.4989243,-0.0454343&zoom=12&size=600x200&scale=2&markers=color:orange%7Clabel:M%7C51.4989243,-0.0454343&key=AIzaSyDs-_mP9CzPDt0LzvDxFcwXmA9cA7yw0Xo" alt="">
+    <img id="goog-loc-map-desk" class="goog-static-map" src="https://maps.googleapis.com/maps/api/staticmap?center=51.4989243,-0.0454343&zoom=12&size=600x200&scale=2&markers=color:orange%7Clabel:M%7C51.4989243,-0.0454343&key=AIzaSyDs-_mP9CzPDt0LzvDxFcwXmA9cA7yw0Xo" alt="">
+    <img id="goog-loc-map-mob" class="goog-static-map" src="https://maps.googleapis.com/maps/api/staticmap?center=51.4989243,-0.0454343&zoom=12&size=600x400&scale=1&markers=color:orange%7Clabel:M%7C51.4989243,-0.0454343&key=AIzaSyDs-_mP9CzPDt0LzvDxFcwXmA9cA7yw0Xo" alt="">
+
     <!-- note: do different 'size' calls for different screen sizes and hide -->
     <!-- attempt to get the google marker display -->
     <!-- <img src="https://maps.googleapis.com/maps/api/staticmap?center=TheMulberry,sharedownership,london&zoom=16&size=1000x500&key=AIzaSyDs-_mP9CzPDt0LzvDxFcwXmA9cA7yw0Xo" alt=""> -->
