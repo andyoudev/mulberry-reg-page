@@ -26,6 +26,7 @@ form {
 
 .p-big-italic-heading {
   font-family: 'Libre Baskerville', serif;
+  font-style: italic;
   font-size: 3rem;
 }
 
@@ -392,6 +393,7 @@ form {
 
 
 .location-map {
+  width: 100%;
   background-color: #F7F6DC;
   color: #5584AC;
   padding-top: 80px;
@@ -412,9 +414,13 @@ form {
   margin: 0 auto 0 auto;
 }
 
-.map-placeholder {
+/* .map-placeholder {
   height: 500px;
   padding-top: 200px;
+} */
+
+.goog-static-map {
+  width: 100%;
 }
 
 
@@ -495,7 +501,14 @@ form {
 
 
 
-
+.mul-form-iframe {
+  /* color: #5584AC;
+  background-color: #F7F6DC; */
+  /* styling doesn't here work, must be edited in powr.io */
+  width: 100%;
+  height: 1200px;
+  /* frameborder: 0; */
+}
 
 
 .registration-form {
