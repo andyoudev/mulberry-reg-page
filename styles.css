@@ -1,7 +1,7 @@
 body {
   text-align: center;
-  color: #F7F6DC;
-  background-color: #F7F6DC;
+  color: #F3F1E6;
+  background-color: #F3F1E6;
 }
 
 h1 {
@@ -19,7 +19,7 @@ form {
 }
 
 .p-small-heading {
-  /* color: #F7F6DC; */
+  /* color: #F3F1E6; */
   letter-spacing: 2px;
   font-weight: bold;
 }
@@ -45,7 +45,7 @@ form {
   text-align: left;
   width: 100%;
   height: 70px;
-  background-image: linear-gradient(to top, rgba(85, 132, 172, 0.8), rgba(85, 132, 172, 0.8));
+  background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
   /* background-color: #1f4468;
   opacity: 0.6; */
 }
@@ -54,7 +54,7 @@ form {
   /* position: absolute; */
   display: inline-block;
   width: 60%;
-  color: #F7F6DC;
+  color: #F3F1E6;
   /* background-color: #1f4468; */
   /* border-color: white;
   border-style: solid;
@@ -77,10 +77,10 @@ form {
   display: inline-block;
   width: 260px;
   background-color: transparent;
-  border-color: #F7F6DC;
+  border-color: #F3F1E6;
   border-style: solid;
   border-width: 2px;
-  color: #F7F6DC;
+  color: #F3F1E6;
   letter-spacing: 3px;
   margin: 0 0 0 90%;
   padding: 0.5% 1% 0.5% 1%;
@@ -161,8 +161,8 @@ form {
 }
 
 .intro-text {
-  background-color: #F7F6DC;
-  color: #5584AC;
+  background-color: #F3F1E6;
+  color: #4782A6;
   padding: 2% 0 2% 0;
 }
 
@@ -172,25 +172,25 @@ form {
 }
 
 .p1-intro {
-  color: #5584AC;
+  color: #4782A6;
   font-size: 3rem;
   letter-spacing: 2px;
 }
 
 .p2-intro {
-  color: #5584AC;
+  color: #4782A6;
   letter-spacing: 2px;
   font-weight: bold;
 }
 
 .p3-intro {
-  color: #5584AC;
+  color: #4782A6;
   letter-spacing: 2px;
   font-weight: bold;
 }
 
 .development-image {
-  color: #F7F6DC;
+  color: #F3F1E6;
   height: 550px;
   background-image: url("images/mul-water-bg-img-2.png");
   background-size: 100%;
@@ -216,7 +216,7 @@ form {
 }
 
 .highlight-details-section {
-  color: #5584AC;
+  color: #4782A6;
   text-align: left;
   height: 400px;
 }
@@ -311,7 +311,7 @@ form {
 
 .loc-img-container-div {
   width: 100%;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(247, 246, 220, 1));
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(243, 241, 230, 1));
 }
 
 .loc-graphic-img {
@@ -336,9 +336,9 @@ form {
   /* position: relative; */
   /* height: 75%; */
   /* box below + 200 */
-  color: #F7F6DC;
-  background-image: linear-gradient(to top, rgba(85, 132, 172, 0.8), rgba(85, 132, 172, 0.8));
-  /* background-color: #5584AC; */
+  color: #F3F1E6;
+  background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
+  /* background-color: #4782A6; */
   text-align: left;
   padding: 70px 90px 40px 70px;
   /* opacity: 0.8; */
@@ -346,7 +346,7 @@ form {
 }
 
 .transport-intro-section {
-  color: #5584AC;
+  color: #4782A6;
   height: 500px;
 }
 
@@ -367,7 +367,7 @@ form {
 }
 
 .transport-times-section {
-  color: #5584AC;
+  color: #4782A6;
   text-align: left;
   padding: 4% 5% 4% 5%;
 }
@@ -379,15 +379,15 @@ form {
 
 .location-map {
   width: 100%;
-  background-color: #F7F6DC;
-  color: #5584AC;
+  background-color: #F3F1E6;
+  color: #4782A6;
   padding-top: 80px;
 }
 
 .loc-heading-div {
   width: 400px;
-  background-color: #F7F6DC;
-  border-color: #5584AC;
+  background-color: #F3F1E6;
+  border-color: #4782A6;
   border-style: solid;
   border-width: 2px;
   margin: 0 auto 0 auto;
@@ -412,7 +412,7 @@ form {
 }
 
 .transport-links {
-  color: #5584AC;
+  color: #4782A6;
   background-color: white;
   padding: 3% 5% 3% 5%;
 }
@@ -420,7 +420,7 @@ form {
 .transp-heading-div {
   width: 400px;
   background-color: white;
-  border-color: #5584AC;
+  border-color: #4782A6;
   border-style: solid;
   border-width: 2px;
   margin: 0 0 0 5.5%;
@@ -480,8 +480,8 @@ form {
 }
 
 .mul-form-iframe {
-  /* color: #5584AC;
-  background-color: #F7F6DC; */
+  /* color: #4782A6;
+  background-color: #F3F1E6; */
   /* styling doesn't here work, must be edited in powr.io */
   width: 100%;
   height: 1200px;
@@ -489,15 +489,15 @@ form {
 }
 
 .registration-form {
-  color: #5584AC;
-  background-color: #F7F6DC;
+  color: #4782A6;
+  background-color: #F3F1E6;
   padding-top: 3%;
   padding-bottom: 3%;
 }
 
 .reg-heading-div {
   width: 400px;
-  background-color: #5584AC;
+  background-color: #4782A6;
   color: white;
   margin: 0 auto 0 auto;
   padding: 0.5% 0 0 0;
@@ -505,7 +505,7 @@ form {
 
 .wandle-form-container-div {
   width: 90%;
-  border-color: #5584AC;
+  border-color: #4782A6;
   border-style: solid;
   border-width: 2px;
   margin: 0 auto 50px auto;
@@ -534,7 +534,7 @@ form {
 }
 
 .abt-wandle-transp-bg-color {
-  background-image: linear-gradient(to bottom, rgba(85, 132, 172, 0.8), rgba(85, 132, 172, 1));
+  background-image: linear-gradient(to bottom, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 1));
   /* background-color: #1f4468; */
   /* opacity: 0.8; */
   padding: 3% 10% 10% 10%;
@@ -547,7 +547,7 @@ form {
 }
 
 .abt-wandle-body-div {
-  color: #F7F6DC;
+  color: #F3F1E6;
   /* opacity: 1; */
 }
 
@@ -562,7 +562,7 @@ form {
 }
 
 .footer {
-  background-color: #5584AC;
+  background-color: #4782A6;
   padding: 3% 15% 5% 15%;
 }
 
@@ -688,7 +688,7 @@ form {
     height: 550px;
     width: 100%;
     overflow: hidden;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(247, 246, 220, 0.3), rgba(247, 246, 220, 1));
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(243, 241, 230, 0.3), rgba(243, 241, 230, 1));
   }
 
   .loc-graphic-img {
@@ -714,9 +714,9 @@ form {
     /* position: relative; */
     /* height: 75%; */
     /* box below + 200 */
-    color: #F7F6DC;
-    background-image: linear-gradient(to top, rgba(85, 132, 172, 0.8), rgba(85, 132, 172, 0.8));
-    /* background-color: #5584AC; */
+    color: #F3F1E6;
+    background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
+    /* background-color: #4782A6; */
     text-align: left;
     padding: 8% 8% 2% 8%;
     /* opacity: 0.8; */
