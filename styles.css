@@ -77,7 +77,7 @@ form {
 }
 
 .register-btn {
-  display: inline-block;
+  /* display: inline-block; */
   width: 260px;
   background-color: transparent;
   border-color: #F3F1E6;
@@ -525,7 +525,7 @@ form {
 
 .form-disclaimer {
   text-align: left;
-  margin-left: 10%;
+  padding: 0 10% 0 10%;
 }
 
 .wandle-text {
@@ -597,26 +597,41 @@ form {
     font-size: 2.2rem;
   }
 
+  .wand-sticky-top-bar {
+    text-align: center;
+  }
+
   #mul-reg-title {
     display: none;
+    /* width: 0; */
+  }
+
+  /* .title-div {
+    width: 0;
+  } */
+
+  .banner {
+    width: 100%;
   }
 
   .align-btn-right {
+    /* display: initial; */
     /* display: inline-block; */
     width: 100%;
     /* margin: auto; */
   }
 
   .register-btn {
+    /* position: absolute; */
     /* display: initial; */
-    width: 50%;
-    margin: 3.5% 0 0 25%;
+    width: 250px;
+    margin: 3.5% auto 0 auto;
     padding: 0.5% 1% 0.5% 1%;
   }
 
 
   .land-img-container {
-    height: 450px;
+    height: 400px;
   }
 
   .landing-graphic-img {
@@ -624,6 +639,7 @@ form {
   }
 
   .white-border-spaced {
+    width: 100%;
     margin: 30% auto 0 auto;
   }
 
@@ -633,7 +649,7 @@ form {
 
   .development-image {
     height: 500px;
-    background-size: 200%;
+    background-size: 230%;
   }
 
   .welc-text-container {
@@ -665,7 +681,7 @@ form {
   }
 
   .p1-mob {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .hlight-det-mob {
@@ -683,19 +699,19 @@ form {
   }
 
   .location-text {
-    height: 550px;
+    height: 600px;
     /* margin-top: -50px; */
   }
 
   .loc-img-container-div {
-    height: 550px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(243, 241, 230, 0.3), rgba(243, 241, 230, 1));
   }
 
   .loc-graphic-img {
-    height: 550px;
+    height: 600px;
     min-width: 825px;
     max-width: none;
     margin-left: -25%;
@@ -709,7 +725,7 @@ form {
     border-style: solid;
     border-width: 2px; */
     padding: 2%;
-    margin: -60% 0 0 0;
+    margin: -65% 0 0 0;
     z-index: 2;
   }
 
@@ -756,5 +772,14 @@ form {
 
   .wandle-form-container-div {
     padding: 0 2% 0 2%;
+  }
+
+  .mul-form-iframe {
+    height: 1400px;
+  }
+
+  .wandle-logo-abt {
+    width: 200px;
+    margin-top: 2%;
   }
 }
