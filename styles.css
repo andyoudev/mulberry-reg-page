@@ -639,7 +639,7 @@ form {
 
 
   .land-img-container {
-    height: 500px;
+    /* height: 500px; */
   }
 
   .landing-graphic-img {
@@ -652,7 +652,7 @@ form {
   }
 
   .logo-img-landing {
-    width: 250px;
+    width: 220px;
   }
 
   .development-image {
