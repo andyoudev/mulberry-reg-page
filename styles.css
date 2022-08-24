@@ -624,7 +624,7 @@ form {
   .register-btn {
     /* position: absolute; */
     /* display: initial; */
-    width: 200px;
+    width: 250px;
     margin: 3.5% auto 0 auto;
     padding: 0.5% 1% 0.5% 1%;
   }
@@ -649,7 +649,7 @@ form {
 
   .development-image {
     height: 500px;
-    background-size: 230%;
+    background-size: 200%;
   }
 
   .welc-text-container {
