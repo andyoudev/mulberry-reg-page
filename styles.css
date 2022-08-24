@@ -636,6 +636,7 @@ form {
 
   .landing-graphic-img {
     top: 0;
+    width: 100%;
   }
 
   .white-border-spaced {
@@ -775,7 +776,7 @@ form {
   }
 
   .mul-form-iframe {
-    height: 1600px;
+    height: 1700px;
   }
 
   .wandle-logo-abt {
