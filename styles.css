@@ -33,6 +33,14 @@ form {
   font-size: 3rem;
 }
 
+.my-bold {
+  font-weight: bold;
+}
+
+.my-ital {
+  font-style: italic;
+}
+
 /* section {
   width: 100%;
 } */
@@ -636,7 +644,6 @@ form {
 
   .landing-graphic-img {
     top: 0;
-    width: 100%;
   }
 
   .white-border-spaced {
