@@ -609,10 +609,10 @@ form {
   /* .title-div {
     width: 0;
   } */
-
+/* 
   .banner {
     width: 100%;
-  }
+  } */
 
   .align-btn-right {
     /* display: initial; */
@@ -694,8 +694,8 @@ form {
   }
 
   .mul-stamp-logo-img {
-    width: 150px;
-    margin: -60% 0 20% 15%;
+    width: 120px;
+    margin: -60% 0 20% 12%;
   }
 
   .location-text {
