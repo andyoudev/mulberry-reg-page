@@ -657,7 +657,7 @@ form {
 
   .development-image {
     height: 450px;
-    background-size: 220%;
+    background-size: 230%;
   }
 
   .welc-text-container {
@@ -694,7 +694,7 @@ form {
   }
 
   .hlight-det-mob {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .icon-img {
@@ -703,11 +703,8 @@ form {
   }
 
   .mul-stamp-logo-img {
-    text-align: right;
     width: 100px;
-    margin: -60% 0 20% 0;
-
-    /* margin: -60% 0 20% 12%; */
+    margin: -90% 0 60% 12%;
   }
 
   .location-text {
@@ -737,7 +734,7 @@ form {
     border-style: solid;
     border-width: 2px; */
     padding: 2%;
-    margin: -65% 0 0 0;
+    margin: -75% 0 0 0;
     z-index: 2;
   }
 
