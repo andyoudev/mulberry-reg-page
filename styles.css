@@ -417,12 +417,17 @@ form {
   height: 500px;
   padding-top: 200px;
 } */
-#goog-loc-map-mob {
+/* #goog-loc-map-mob {
     display: none;
 }
 
 .goog-static-map {
   width: 100%;
+} */
+
+.goog-map-embed-iframe {
+  width: 100%;
+  height: 400px;
 }
 
 .transport-links {
