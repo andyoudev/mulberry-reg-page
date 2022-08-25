@@ -633,13 +633,13 @@ form {
     /* position: absolute; */
     /* display: initial; */
     width: 250px;
-    margin: 17px auto 0 auto;
+    margin: 18px auto 0 auto;
     padding: 0.5% 1% 0.5% 1%;
   }
 
 
   .land-img-container {
-    height: 400px;
+    height: 370px;
   }
 
   .landing-graphic-img {
@@ -661,6 +661,7 @@ form {
   }
 
   .welc-text-container {
+    width: 90%;
     padding: 20% 0 5% 0;
   }
 
