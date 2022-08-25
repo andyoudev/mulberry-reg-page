@@ -70,8 +70,8 @@ form {
   /* border-color: white;
   border-style: solid;
   border-width: 2px; */
-  margin: 0 0 0 2%;
-  padding: 1.5% 0 0 0;
+  margin: 18px 0 0 30px;
+  /* padding: 0 0 0 0; */
   z-index: 5;
   opacity: initial;
 }
@@ -82,6 +82,9 @@ form {
 
 .align-btn-right {
   display: inline-block;
+  text-align: right;
+  width: 36%;
+  margin-top: 18px;
 }
 
 .register-btn {
@@ -93,7 +96,7 @@ form {
   border-width: 2px;
   color: #F3F1E6;
   letter-spacing: 3px;
-  margin: 0 0 0 90%;
+  margin: 0 2% 0 0;
   padding: 0.5% 1% 0.5% 1%;
 }
 
@@ -591,7 +594,88 @@ form {
   font-size: 0.7rem;
 }
 
-@media only screen and (max-width: 960px) {}
+/* note, used 960 before */
+@media only screen and (max-width: 990px) {
+
+  p {
+    font-size: 1rem;
+  }
+
+  .p-big-italic-heading {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: 2.2rem;
+  }
+
+  .land-img-container {
+    height: 570px;
+  }
+
+  .landing-graphic-img {
+    top: -500px;
+  }
+
+  .development-image {
+    height: 450px;
+    background-size: 150%;
+  }
+
+  .welc-text-container {
+    width: 90%;
+    padding: 20% 0 5% 5%;
+  }
+
+  .p1-mob {
+    font-size: 1.8rem;
+  }
+
+  .hlight-det-mob {
+    font-size: 0.9rem;
+  }
+
+  .mul-stamp-logo-img {
+    width: 120px;
+    margin: -90% 0 60% 9%;
+  }
+
+  .location-text {
+    height: 600px;
+    /* margin-top: -50px; */
+  }
+
+  .loc-desc-white-colour-border-spaced {
+    position: relative;
+    width: 50%;
+    /* border-color: white;
+    border-style: solid;
+    border-width: 2px; */
+    padding: 2%;
+    margin: -35% 0 0 49%;
+    z-index: 2;
+  }
+
+  .loc-desc-box-bg-inside {
+    /* position: relative; */
+    /* height: 75%; */
+    /* box below + 200 */
+    color: #F3F1E6;
+    background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
+    /* background-color: #4782A6; */
+    text-align: left;
+    padding: 8% 8% 2% 8%;
+    /* opacity: 0.8; */
+    /* z-index: 6; */
+  }
+
+  .transport-intro-section {
+    height: 400px;
+  }
+
+  .wandle-form-container-div {
+    padding: 0 2% 0 2%;
+  }
+
+}
 
 @media only screen and (max-width: 590px) {
 
@@ -699,7 +783,7 @@ form {
 
   .icon-img {
     width: 20px;
-    margin-right: 20px;
+    margin-right: 18px;
   }
 
   .mul-stamp-logo-img {
