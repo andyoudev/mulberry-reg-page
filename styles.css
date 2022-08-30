@@ -39,7 +39,7 @@ form {
   font-family: 'Libre Baskerville', serif;
   font-style: italic;
   font-size: 3rem;
-  letter-spacing: 0.1px;
+  letter-spacing: -1px;
 }
 
 .my-bold {
@@ -657,7 +657,7 @@ form {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1024px) {
   .my-width-control {
     width: 960px;
     padding-left: 2%;
@@ -666,16 +666,16 @@ form {
 }
 
 /* note, used 960 before */
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 800px) {
 
   p {
     font-size: 1rem;
   }
 
   .my-width-control {
-    width: 800px;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 760px;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   /* .p-big-italic-heading {
@@ -740,25 +740,26 @@ form {
 
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   .my-width-control {
     width: 590px;
     padding-left: 2%;
     padding-right: 2%;
   }
-}
+} */
 
 
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 580px) {
 
   p {
     font-size: 1rem;
   }
 
   .my-width-control {
-    width: 580px;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 100%;
+    /* width: 560px; */
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   .p-big-italic-heading {
@@ -818,7 +819,7 @@ form {
     width: 220px;
   }
 
-  .development-image {
+  .development-image-section {
     height: 450px;
     background-size: 230%;
   }
@@ -870,7 +871,7 @@ form {
     margin: -90% 0 60% 9%;
   }
 
-  .location-text {
+  .location-text-section {
     height: 600px;
     /* margin-top: -50px; */
   }
