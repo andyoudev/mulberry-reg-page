@@ -381,7 +381,6 @@ form {
   right: 10px;
   padding: 2%;
   /* margin: -30% 0 0 49%; */
-  /* z-index: 2; */
 }
 
 .loc-desc-box-bg-inside {
@@ -685,82 +684,166 @@ form {
     padding-left: 2%;
     padding-right: 2%;
   }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .p-big-italic-heading {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: 2.2rem;
+  }
+
+  .development-image-section {
+    height: 450px;
+  }
+
+  .welc-text-container {
+    padding: 15% 0 3% 0;
+  }
+
+  .welc-img-container {
+    padding: 15% 0 3% 0;
+  }
+
+  .highlight-details-section {
+    height: 360px;
+  }
+
+  .coffee-img-container {
+    padding: 13% 0 3% 0;
+  }
+
+  .hlight-text-container {
+    background-image: none;
+    /* background-position: 98% 30%;
+    background-size: 140px 140px; */
+    padding: 11% 0 3% 0;
+  }
+
+  .hlight-tophalf {
+    margin-bottom: 2%;
+  }
+
+  .icon-img {
+    width: 22px;
+  }
+
+  .transport-intro-section {
+    height: 370px;
+  }
+
+  .transport-times-section {
+    padding: 2% 0 4% 0;
+  }
+
+  .goog-map-embed-iframe {
+    height: 500px;
+  }
 }
 
 /* note, used 960 before */
 @media only screen and (max-width: 960px) {
 /* @media only screen and (max-width: 800px) { */
 
-  p {
-    font-size: 1rem;
-  }
-
-  .my-width-control {
+    .my-width-control {
     /* 100%?? */
-    width: 760px;
+    width: 800px;
     padding-left: 1%;
     padding-right: 1%;
   }
 
-  /* .p-big-italic-heading {
-    font-family: 'Libre Baskerville', serif;
-    font-style: italic;
-    font-size: 2.2rem;
+  .wand-sticky-top-bar {
+    text-align: center;
   }
 
-  .land-img-container {
-    height: 570px;
+  #mul-reg-title {
+    display: none;
   }
 
-  .development-image {
-    height: 450px;
-    background-size: 150%;
+  .align-btn-right {
+    position: inherit;
+    text-align: center;
+    width: 300px;
+  }
+
+  .development-image-section {
+    height: 360px;
   }
 
   .welc-text-container {
     width: 90%;
-    padding: 20% 0 5% 5%;
+    padding: 10% 0 3% 0;
   }
 
-  .p1-mob {
-    font-size: 1.8rem;
+  #mob-welc-img {
+    display: initial;
   }
 
-  .hlight-det-mob {
-    font-size: 0.9rem;
+  #desc-welc-img {
+    display: none;
   }
 
-  .mul-stamp-logo-img {
-    width: 120px;
-    margin: -90% 0 60% 9%;
+  .welc-img-container {
+    margin: 0;
   }
 
-  .location-text {
+  .welc-img {
+    width: 100%;
+  }
+
+  #mul-coffee-img {
+    display: none;
+  }
+
+  .coffee-img-container {
+    padding: 0;
+  }
+
+  .highlight-details-section {
+    height: 300px;
+    padding-bottom: 2%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+  }
+
+  .hlight-text-container {
+    width: 75%;
+    background-image: url("images/mul-stamp-logo.png");
+    background-position: 85% 15%;
+    background-size: 140px 140px;
+    padding: 2% 0 3% 0;
+  }
+
+  .location-text-section {
+    height: 600px;
+  }
+
+  .section-w-bg-image-fade {
     height: 600px;
   }
 
   .loc-desc-white-colour-border-spaced {
-    position: relative;
-    width: 50%;
-    padding: 2%;
-    margin: -35% 0 0 49%;
-    z-index: 2;
-  }
-
-  .loc-desc-box-bg-inside {
-    color: #F3F1E6;
-    background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
-    text-align: left;
-    padding: 8% 8% 2% 8%;
+    width: 500px;
+    /* bottom: 0px;
+    right: 10px; */
+    padding: 1.5%;
   }
 
   .transport-intro-section {
-    height: 400px;
+    height: 850px;
   }
 
-  .wandle-form-container-div {
-    padding: 0 2% 0 2%;
-  } */
+  .transp-intro-text-container {
+    width: 90%;
+    padding: 3% 0 3% 0;
+  }
+
+  .can-wat-tube-img-container {
+    width: 100%;
+    padding: 3% 0 3% 0;
+  }
 
 }
 
@@ -786,92 +869,20 @@ form {
     padding-right: 1%;
   }
 
-  .p-big-italic-heading {
+  /* .p-big-italic-heading {
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
     font-size: 2.2rem;
-  }
-
-  .wand-sticky-top-bar {
-    text-align: center;
-  }
-
-  #mul-reg-title {
-    display: none;
-    /* width: 0; */
-  }
-
-  /* .title-div {
-    width: 0;
   } */
-/*
-  .banner {
-    width: 100%;
-  } */
-
-  .align-btn-right {
-    /* display: initial; */
-    /* display: inline-block; */
-    text-align: center;
-    width: 100%;
-    /* margin: auto; */
-  }
-
-  .register-btn {
-    /* position: absolute; */
-    /* display: initial; */
-    width: 250px;
-    margin: 0 auto 0 auto;
-    padding: 0.5% 1% 0.5% 1%;
-  }
-
 
   .land-img-container {
     height: 370px;
-  }
-
-  .landing-graphic-img {
-    /* top: 0; */
-  }
-
-  .white-border-spaced {
-    width: 80%;
-    margin: 30% auto 0 auto;
   }
 
   .logo-img-landing {
     width: 220px;
   }
 
-  .development-image-section {
-    height: 450px;
-    background-size: 230%;
-  }
-
-  .welc-text-container {
-    width: 90%;
-    padding: 20% 0 5% 0;
-  }
-
-  #mob-welc-img {
-    display: initial;
-  }
-
-  #desc-welc-img {
-    display: none;
-  }
-
-  .welc-img-container {
-    margin: 0;
-  }
-
-  .welc-img {
-    width: 100%;
-  }
-
-  #mul-coffee-img {
-    display: none;
-  }
 
   .hlight-text-container {
     padding-left: 4%;
@@ -890,10 +901,6 @@ form {
     margin-right: 18px;
   }
 
-  .mul-stamp-logo-img {
-    width: 100px;
-    margin: -90% 0 60% 9%;
-  }
 
   .location-text-section {
     height: 600px;
@@ -907,37 +914,7 @@ form {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(243, 241, 230, 0.3), rgba(243, 241, 230, 1));
   }
 
-  .loc-graphic-img {
-    height: 600px;
-    min-width: 825px;
-    max-width: none;
-    margin-left: -25%;
-    /* width: 100%; */
-  }
 
-  .loc-desc-white-colour-border-spaced {
-    position: relative;
-    width: 80%;
-    /* border-color: white;
-    border-style: solid;
-    border-width: 2px; */
-    padding: 2%;
-    margin: -75% 0 0 0;
-    z-index: 2;
-  }
-
-  .loc-desc-box-bg-inside {
-    /* position: relative; */
-    /* height: 75%; */
-    /* box below + 200 */
-    color: #F3F1E6;
-    background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
-    /* background-color: #4782A6; */
-    text-align: left;
-    padding: 8% 8% 2% 8%;
-    /* opacity: 0.8; */
-    /* z-index: 6; */
-  }
 
   .transport-intro-section {
     height: 720px;
