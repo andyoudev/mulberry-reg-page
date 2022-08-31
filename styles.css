@@ -877,13 +877,17 @@ form {
   .p-big-italic-heading {
     /* font-family: 'Libre Baskerville', serif;
     font-style: italic; */
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .logo-img-landing {
     width: 100%;
     max-width: 220px;
     margin-top: 20%;
+  }
+
+  .p1-intro {
+    font-size: 2.5rem;
   }
 
   .development-image-section {
