@@ -877,7 +877,7 @@ form {
   .p-big-italic-heading {
     /* font-family: 'Libre Baskerville', serif;
     font-style: italic; */
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .logo-img-landing {
@@ -911,12 +911,15 @@ form {
     margin-right: 18px;
   }
 
-
   .loc-desc-white-colour-border-spaced {
-    width: 400px;
+    width: 380px;
     /* bottom: 0px;
     right: 10px; */
     padding: 1%;
+  }
+
+  .loc-desc-box-bg-inside {
+    padding: 50px 60px 30px 50px;
   }
 
   .transport-intro-section {
@@ -943,9 +946,9 @@ form {
     height: 340px;
   }
 
-  /* .wandle-form-container-div {
-    padding: 2% 2% 0 2%;
-  } */
+  .wandle-form-container-div {
+    padding: 3% 3% 0 3%;
+  }
 
   .mul-form-iframe {
     height: 1700px;
