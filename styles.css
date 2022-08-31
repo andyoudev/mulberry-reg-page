@@ -11,7 +11,7 @@ body {
 h1 {
   /* font-family: 'Big Shoulders Stencil Display', cursive; */
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 p {
@@ -38,7 +38,7 @@ form {
 .p-big-italic-heading {
   font-family: 'Libre Baskerville', serif;
   font-style: italic;
-  font-size: 3rem;
+  font-size: 2.8rem;
   letter-spacing: -1px;
 }
 
@@ -62,6 +62,7 @@ form {
 }
 
 .wand-sticky-top-bar {
+  position: relative;
   text-align: left;
   width: 100%;
   height: 70px;
@@ -71,17 +72,18 @@ form {
 }
 
 .title-div {
-  /* position: absolute; */
+  position: absolute;
   display: inline-block;
-  width: 60%;
+  width: 600px;
   color: #F3F1E6;
   /* background-color: #1f4468; */
   /* border-color: white;
   border-style: solid;
   border-width: 2px; */
-  margin: 18px 0 0 30px;
+  left: 40px;
+  margin: 20px 0 0 0;
   /* padding: 0 0 0 0; */
-  z-index: 5;
+  /* z-index: 5; */
   opacity: initial;
 }
 
@@ -90,9 +92,11 @@ form {
 }
 
 .align-btn-right {
+  position: absolute;
   display: inline-block;
   text-align: right;
-  width: 36%;
+  width: 300px  ;
+  right: 40px;
   margin-top: 18px;
 }
 
@@ -178,6 +182,7 @@ form {
 
 .intro-text-section {
   background-color: #F3F1E6;
+  text-align: center;
   color: #4782A6;
   padding: 3% 0 3% 0;
 }
@@ -186,6 +191,13 @@ form {
   font-family: 'Zen Tokyo Zoo', cursive;
   color: #4782A6;
   font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.p1-intro-hlight {
+  font-family: 'Zen Tokyo Zoo', cursive;
+  color: #4782A6;
+  font-size: 2.4rem;
   letter-spacing: 2px;
 }
 
@@ -204,7 +216,7 @@ form {
 .development-image-section {
   color: #F3F1E6;
   height: 550px;
-  background-image: url("images/mul-water-bg-img-2.png");
+  background-image: url("images/mul-water-bg-img-3.png");
   background-position: center top;
   background-size: 100% 100%;
 }
@@ -215,14 +227,14 @@ form {
 
 .welc-text-container {
   text-align: left;
-  width: 80%;
-  padding: 20% 0 3% 0;
+  width: 90%;
+  padding: 12% 0 3% 0;
   margin: auto;
 }
 
 .welc-img-container {
-  width: 80%;
-  padding: 20% 0 3% 0;
+  width: 90%;
+  padding: 12% 0 3% 0;
   margin: auto;
 }
 
@@ -234,11 +246,12 @@ form {
   color: #4782A6;
   text-align: left;
   height: 400px;
-  margin-bottom: 3%;
+  padding-bottom: 2%;
+  margin-bottom: 4%;
 }
 
 .coffee-img-container {
-  width: 80%;
+  width: 90%;
   padding: 10% 0 3% 0;
   margin: auto;
 }
@@ -248,17 +261,21 @@ form {
 }
 
 .hlight-text-container {
-  width: 80%;
+  width: 90%;
   background-image: url("images/mul-stamp-logo.png");
-  background-position: 95% 30%;
-  background-size: 150px 150px;
+  background-position: 98% 30%;
+  background-size: 140px 140px;
   background-repeat: no-repeat;
   padding: 10% 0 3% 0;
   margin: auto;
 }
 
+.hlight-tophalf {
+  margin-bottom: 3%;
+}
+
 .icon-img {
-  width: 30px;
+  width: 25px;
   margin-right: 20px;
 }
 
@@ -347,7 +364,9 @@ form {
   width: 100%;
   height: 800px;
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(243, 241, 230, 1));
-  background-size: 100% auto;
+  background-size: 1510px 800px;
+  overflow: hidden;
+  margin-bottom: 3%;
 }
 
 
@@ -385,13 +404,13 @@ form {
 
 .transp-intro-text-container {
   text-align: left;
-  width: 80%;
+  width: 90%;
   padding: 10% 0 3% 0;
   margin: auto;
 }
 
 .can-wat-tube-img-container {
-  width: 80%;
+  width: 90%;
   padding: 10% 0 3% 0;
   margin: auto;
 }
@@ -459,7 +478,7 @@ form {
 } */
 
 .transp-times-underline-div {
-  width: 300px;
+  width: 370px;
   /* border-bottom-style: solid;
   border-color: #1f4468;
   border-width: 2px; */
@@ -468,7 +487,7 @@ form {
 
 .tr-ti-spacer-width {
   display: inline-block;
-  width: 190px;
+  width: 260px;
 }
 
 .tr-ti-align-right {
@@ -520,7 +539,7 @@ form {
 
 .goog-map-embed-iframe {
   width: 100%;
-  height: 400px;
+  height: 600px;
   margin: 2% 0 4% 0;
 }
 
@@ -657,7 +676,10 @@ form {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+/* extra 1200 to 1024?? */
+
+@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1024px) { */
   .my-width-control {
     width: 960px;
     padding-left: 2%;
@@ -666,13 +688,15 @@ form {
 }
 
 /* note, used 960 before */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 960px) {
+/* @media only screen and (max-width: 800px) { */
 
   p {
     font-size: 1rem;
   }
 
   .my-width-control {
+    /* 100%?? */
     width: 760px;
     padding-left: 1%;
     padding-right: 1%;
