@@ -266,7 +266,7 @@ form {
   background-position: 98% 30%;
   background-size: 140px 140px;
   background-repeat: no-repeat;
-  padding: 10% 0 3% 0;
+  padding: 8% 0 3% 0;
   margin: auto;
 }
 
@@ -277,6 +277,11 @@ form {
 .icon-img {
   width: 25px;
   margin-right: 20px;
+}
+
+.hlight-det-mob {
+  letter-spacing: 1.1px;
+  font-size: 1rem;
 }
 
 /* .mul-stamp-logo-img {
@@ -350,21 +355,24 @@ form {
 
 .location-text-section {
   width: 100%;
-  height: 800px;
+  height: 700px;
   background-image: url("images/canada-water-masterplan-img.jpg");
   background-position: center bottom;
-  background-size: 1510px 800px;
-  /* background-size: 100% auto; */
+  /* background-size: 1510px 800px; */
+  /* background-size: 2100px 1110px; */
+  background-size: 100% auto;
   overflow: hidden;
+  background-repeat: no-repeat;
   margin-bottom: 3%;
 }
 
 .section-w-bg-image-fade {
   position: relative;
   width: 100%;
-  height: 800px;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(243, 241, 230, 1));
-  background-size: 1510px 800px;
+  height: 700px;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(243, 241, 230, 1));
+  /* background-size: 1510px 800px; */
+  background-size: 100% 700px;
   overflow: hidden;
   margin-bottom: 3%;
 }
@@ -372,7 +380,7 @@ form {
 
 .loc-desc-white-colour-border-spaced {
   position: absolute;
-  /* width: 40%; */
+  /* width: 50%; */
   width: 600px;
   /* border-color: white;
   border-style: solid;
@@ -380,6 +388,7 @@ form {
   bottom: 0px;
   right: 10px;
   padding: 2%;
+  /* padding-bottom: 2%; */
   /* margin: -30% 0 0 49%; */
 }
 
@@ -391,6 +400,10 @@ form {
   background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
   /* background-color: #4782A6; */
   text-align: left;
+
+  /* width: 90%;
+  margin: auto; */
+
   padding: 70px 90px 40px 70px;
   /* opacity: 0.8; */
   /* z-index: 6; */
@@ -665,6 +678,14 @@ form {
     padding-left: 2%;
     padding-right: 2%;
   }
+
+  .location-text-section {
+    background-size: 1510px 800px;
+  }
+
+  .section-w-bg-image-fade {
+    background-size: 1510px 800px;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -719,7 +740,7 @@ form {
     background-image: none;
     /* background-position: 98% 30%;
     background-size: 140px 140px; */
-    padding: 11% 0 3% 0;
+    padding: 10% 0 3% 0;
   }
 
   .hlight-tophalf {
@@ -744,12 +765,13 @@ form {
 }
 
 /* note, used 960 before */
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 992px) {
 /* @media only screen and (max-width: 800px) { */
 
     .my-width-control {
     /* 100%?? */
     width: 800px;
+    max-width: 100%;
     padding-left: 1%;
     padding-right: 1%;
   }
@@ -809,7 +831,7 @@ form {
   }
 
   .hlight-text-container {
-    width: 75%;
+    width: 85%;
     background-image: url("images/mul-stamp-logo.png");
     background-position: 85% 15%;
     background-size: 140px 140px;
@@ -817,11 +839,12 @@ form {
   }
 
   .location-text-section {
-    height: 600px;
+    height: 500px;
   }
 
   .section-w-bg-image-fade {
-    height: 600px;
+    height: 500px;
+    background-size: 100% 500px;
   }
 
   .loc-desc-white-colour-border-spaced {
@@ -895,7 +918,7 @@ form {
   }
 
   .hlight-text-container {
-    width: 75%;
+    width: 85%;
     background-image: none;
     /* background-position: 85% 15%;
     background-size: 140px 140px; */
@@ -914,6 +937,15 @@ form {
     width: 18px;
     margin-right: 18px;
   }
+
+  /* .location-text-section {
+    height: 700px;
+  }
+
+  .section-w-bg-image-fade {
+    height: 700px;
+    background-size: 100% 700px;
+  } */
 
   .loc-desc-white-colour-border-spaced {
     width: 380px;
