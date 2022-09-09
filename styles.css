@@ -881,14 +881,14 @@ form {
 } */
 
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 480px) {
 
   p {
     font-size: 1rem;
   }
 
   .my-width-control {
-    width: 95%;
+    width: 100%;
     /* width: 560px; */
     padding-left: 1%;
     padding-right: 1%;
