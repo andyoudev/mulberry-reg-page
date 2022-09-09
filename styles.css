@@ -8,6 +8,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+section {
+  padding: 70px 0 70px 0;
+}
+
 h1 {
   /* font-family: 'Big Shoulders Stencil Display', cursive; */
   font-family: 'Montserrat', sans-serif;
@@ -58,6 +62,7 @@ form {
   /* Safari */
   position: sticky;
   top: 0;
+  padding: 0;
   z-index: 4;
 }
 
@@ -120,24 +125,24 @@ form {
   background-position: center bottom;
   background-size: 100% auto;
   margin-top: -70px;
-  padding-top: 6%;
+  padding: 0;
   overflow: hidden;
 }
 
 
-.white-border-spaced {
-  width: 50%;
+/* .white-border-spaced {
+  width: 50%; */
   /* border-color: white;
   border-style: solid;
   border-width: 2px; */
   /* padding: 2%; */
-  margin: 0 auto 0 auto;
-}
+  /* margin: 0 auto 0 auto;
+} */
 
-.logo-img-landing {
+/* .logo-img-landing {
   width: 100%;
   max-width: 350px;
-}
+} */
 
 /* .box-bg-inside {
   height: 25%;
@@ -185,7 +190,7 @@ form {
   background-color: #F3F1E6;
   text-align: center;
   color: #4782A6;
-  padding: 3% 0 3% 0;
+  /* padding: 3% 0 3% 0; */
 }
 
 .p1-intro {
@@ -216,28 +221,47 @@ form {
 
 .development-image-section {
   color: #F3F1E6;
-  height: 550px;
+  /* height: 550px; */
   background-image: url("images/mul-water-bg-img-3.png");
   background-position: center top;
   background-size: 100% 100%;
+  padding-top: 90px;
 }
 
 #mob-welc-img {
   display: none;
 }
 
-.welc-text-container {
+/* .welc-text-container {
   text-align: left;
   width: 90%;
   padding: 12% 0 3% 0;
+  margin: auto;
+} */
+
+.welc-text-container {
+  text-align: left;
+  width: 90%;
+  padding: 0 0 0 0;
   margin: auto;
 }
 
 .welc-img-container {
   width: 90%;
-  padding: 12% 0 3% 0;
+  height: 400px;
+  background-image: url("images/mul-welcome-img.jpg");
+  background-position: left bottom;
+  background-size: 622px 400px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  /* padding: 12% 0 3% 0; */
   margin: auto;
 }
+/* .welc-img-container {
+  width: 90%;
+  padding: 12% 0 3% 0;
+  margin: auto;
+} */
 
 .welc-img {
   width: 100%;
@@ -246,14 +270,20 @@ form {
 .highlight-details-section {
   color: #4782A6;
   text-align: left;
-  height: 400px;
+  /* height: 400px; */
   padding-bottom: 2%;
   margin-bottom: 4%;
 }
 
 .coffee-img-container {
   width: 90%;
-  padding: 10% 0 3% 0;
+  height: 400px;
+  background-image: url("images/coffee-img.jpg");
+  background-position: right bottom;
+  background-size: 622px 400px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  /* padding: 12% 0 3% 0; */
   margin: auto;
 }
 
@@ -267,7 +297,8 @@ form {
   background-position: 98% 30%;
   background-size: 140px 140px;
   background-repeat: no-repeat; */
-  padding: 8% 0 3% 0;
+  /* padding: 8% 0 3% 0; */
+  padding: 0;
   margin: auto;
 }
 
@@ -356,28 +387,30 @@ form {
 
 .location-text-section {
   width: 100%;
-  height: 550px;
   background-image: url("images/canada-water-masterplan-img.jpg");
   background-position: center bottom;
-  /* background-size: 1510px 800px; */
-  /* background-size: 2100px 1110px; */
   background-size: 100% auto;
   overflow: hidden;
   background-repeat: no-repeat;
-  margin-bottom: 3%;
+  padding: 0;
 }
 
 .section-w-bg-image-fade {
   position: relative;
   width: 100%;
-  height: 550px;
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(243, 241, 230, 1));
-  /* background-size: 1510px 800px; */
-  background-size: 100% 550px;
+  background-position: center bottom;
+  background-size: 100% auto;
   overflow: hidden;
-  margin-bottom: 3%;
+  margin-top: -2px;
 }
 
+.can-water-se16-text-container {
+  text-align: left;
+  width: 90%;
+  padding: 0;
+  margin: auto;
+}
 
 .loc-desc-white-colour-border-spaced {
   position: absolute;
@@ -405,37 +438,44 @@ form {
   /* width: 90%;
   margin: auto; */
 
-  padding: 70px 90px 40px 70px;
+  padding: 70px 60px 40px 60px;
   /* opacity: 0.8; */
   /* z-index: 6; */
 }
 
 .transport-intro-section {
   color: #4782A6;
-  height: 500px;
+  /* height: 500px; */
 }
 
 .transp-intro-text-container {
   text-align: left;
   width: 90%;
-  padding: 10% 0 3% 0;
+  /* padding: 10% 0 3% 0; */
+  padding: 0;
   margin: auto;
 }
 
 .can-wat-tube-img-container {
   width: 90%;
-  padding: 10% 0 3% 0;
+  height: 400px;
+  background-image: url("images/canada-water-tube-img.jpg");
+  background-position: center bottom;
+  background-size: 622px 400px;
+  overflow: hidden;
+  background-repeat: no-repeat;
   margin: auto;
 }
 
-.can-wat-tube-img {
+/* .can-wat-tube-img {
   width: 100%;
-}
+} */
 
 .transport-times-section {
   color: #4782A6;
   text-align: left;
-  padding: 4% 0 4% 0;
+  /* padding: 4% 0 4% 0; */
+  padding: 0;
 }
 
 .transp-icon {
@@ -495,7 +535,7 @@ form {
   /* border-bottom-style: solid;
   border-color: #1f4468;
   border-width: 2px; */
-  margin-bottom: 1%;
+  margin-top: 10px;
 }
 
 .tr-ti-spacer-width {
@@ -547,21 +587,19 @@ form {
   width: 100%;
   background-color: #F3F1E6;
   color: #4782A6;
-  padding-top: 3%;
 }
 
 .goog-map-embed-iframe {
   width: 100%;
   height: 600px;
-  margin: 2% 0 4% 0;
+  margin: 10px 0 0 0;
 }
 
 
 .registration-form-section {
   color: #4782A6;
   background-color: #F3F1E6;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 0;
 }
 
 /* .reg-heading-div {
@@ -578,7 +616,7 @@ form {
   border-style: solid;
   border-width: 2px;
   margin: 2% auto 3% auto;
-  padding: 2% 2% 0 2%;
+  padding: 50px 50px 0 50px;
 }
 
 .mul-form-iframe {
@@ -586,7 +624,8 @@ form {
   background-color: #F3F1E6; */
   /* styling doesn't here work, must be edited in powr.io */
   width: 100%;
-  height: 1200px;
+  height: 1250px;
+  margin-top: 50px;
   /* frameborder: 0; */
 }
 
@@ -614,6 +653,7 @@ form {
   background-size: 2110px 1200px;
   /* background-size: 100% auto; */
   overflow: hidden;
+  padding: 0;
   /* margin-bottom: 3%; */
 }
 
@@ -630,13 +670,14 @@ form {
 
 .wandle-logo-abt {
   width: 250px;
-  padding-bottom: 3%;
+  margin: 0 0 50px 0;
+  /* padding-bottom: 3%; */
   /* opacity: 2; */
 }
 
 .abt-wandle-body-div {
   color: #F3F1E6;
-  padding: 5% 7% 10% 7%;
+  padding: 75px 100px 140px 100px;
 
   /* opacity: 1; */
 }
@@ -654,10 +695,11 @@ form {
 .foot-section {
   width: 100%;
   background-color: #4782A6;
+  padding-top: 0;
 }
 
 .footer {
-  padding: 3% 15% 5% 15%;
+  padding: 0 15% 0 15%;
 }
 
 .wandle-logo-foot {
@@ -685,9 +727,8 @@ form {
     background-size: 1510px 800px;
   }
 
-  .section-w-bg-image-fade {
-    background-size: 1510px 800px;
-  }
+  /* keep fade size dynamic */
+
 }
 
 @media only screen and (max-width: 1400px) {
@@ -719,30 +760,15 @@ form {
   }
 
   .development-image-section {
-    height: 450px;
-  }
-
-  .welc-text-container {
-    padding: 15% 0 3% 0;
-  }
-
-  .welc-img-container {
-    padding: 15% 0 3% 0;
+    /* height: 450px; */
   }
 
   .highlight-details-section {
-    height: 360px;
+    /* height: 360px; */
   }
 
-  .coffee-img-container {
-    padding: 13% 0 3% 0;
-  }
-
-  .hlight-text-container {
-    /* background-image: none; */
-    /* background-position: 98% 30%;
-    background-size: 140px 140px; */
-    padding: 10% 0 3% 0;
+  #avail-for-text {
+    display: none;
   }
 
   .hlight-tophalf {
@@ -754,11 +780,11 @@ form {
   }
 
   .transport-intro-section {
-    height: 370px;
+    /* height: 370px; */
   }
 
   .transport-times-section {
-    padding: 2% 0 4% 0;
+    /* padding: 0; */
   }
 
   .goog-map-embed-iframe {
@@ -793,81 +819,81 @@ form {
   }
 
   .development-image-section {
-    height: 360px;
-  }
-
-  .welc-text-container {
-    width: 90%;
-    padding: 10% 0 3% 0;
+    /* height: 360px; */
   }
 
   #mob-welc-img {
     display: initial;
   }
 
-  #desc-welc-img {
+  #welc-img-col {
     display: none;
-  }
-
-  .welc-img-container {
-    margin: 0;
   }
 
   .welc-img {
     width: 100%;
   }
 
-  #mul-coffee-img {
+  #coffee-img-col {
     display: none;
   }
 
-  .coffee-img-container {
+  /* #mul-coffee-img {
+    display: none;
+  } */
+
+  /* .coffee-img-container {
     padding: 0;
-  }
+  } */
 
   .highlight-details-section {
-    height: 305px;
-    padding-bottom: 2%;
-    margin-top: 3%;
-    margin-bottom: 4%;
+    /* padding-top: 0; */
   }
 
   .hlight-text-container {
-    width: 85%;
+    width: 90%;
     /* background-image: url("images/mul-stamp-logo.png");
     background-position: 85% 15%;
     background-size: 140px 140px; */
-    padding: 2% 0 3% 0;
+    padding: 0 0 0 60px;
+    /* padding: 2% 0 3% 10%; */
   }
 
-  .location-text-section {
+  #avail-for-text {
+    display: initial;
+  }
+
+  /* .location-text-section {
     height: 500px;
   }
 
   .section-w-bg-image-fade {
     height: 500px;
     background-size: 100% 500px;
-  }
+  } */
 
-  .loc-desc-white-colour-border-spaced {
+  /* .loc-desc-white-colour-border-spaced {
     width: 500px;
-    /* bottom: 0px;
-    right: 10px; */
     padding: 1.5%;
-  }
+  } */
 
   .transport-intro-section {
-    height: 850px;
+    /* height: 850px; */
   }
 
   .transp-intro-text-container {
     width: 90%;
-    padding: 3% 0 3% 0;
+    /* padding: 3% 0 3% 0; */
+  }
+
+  #rail-trans-times {
+    margin-top: 50px;
   }
 
   .can-wat-tube-img-container {
     width: 100%;
-    padding: 3% 0 3% 0;
+    margin-top: 70px;
+    /* padding: 3% 0 3% 0; */
   }
 
 }
@@ -881,7 +907,7 @@ form {
 } */
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 580px) {
 
   p {
     font-size: 1rem;
@@ -896,7 +922,6 @@ form {
 
   .landing-page-section {
     height: 530px;
-    margin-bottom: 3%;
   }
 
   .p-big-italic-heading {
@@ -905,26 +930,34 @@ form {
     font-size: 1.8rem;
   }
 
-  .logo-img-landing {
+  /* .logo-img-landing {
     width: 100%;
     max-width: 220px;
     margin-top: 20%;
-  }
+  } */
 
   .p1-intro {
     font-size: 2.3rem;
   }
 
   .development-image-section {
-    height: 400px;
+    /* height: 400px; */
+  }
+
+  .highlight-details-section {
+    padding-top: 40px;
   }
 
   .hlight-text-container {
-    width: 85%;
+    width: 90%;
     /* background-image: none; */
     /* background-position: 85% 15%;
     background-size: 140px 140px; */
-    padding: 2% 0 3% 4%;
+    padding: 0 0 0 50px;
+  }
+
+  #avail-for-text {
+    display: none;
   }
 
   .p1-mob {
@@ -961,27 +994,17 @@ form {
   }
 
   .transport-intro-section {
-    height: 720px;
+    /* height: 720px; */
   }
 
-  .transp-intro-text-container {
-    text-align: left;
-    width: 90%;
-    padding: 10% 0 3% 0;
-    margin: auto;
-  }
 
-  .can-wat-tube-img-container {
-    text-align: center;
-    margin: 0 0 0 0;
-  }
-
-  .can-wat-tube-img {
-    width: 100%;
-  }
 
   .transport-times-section {
     display: none;
+  }
+
+  .location-map-section {
+    padding-top: 0;
   }
 
   .goog-map-embed-iframe {
