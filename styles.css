@@ -20,7 +20,7 @@ h1 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 form {
@@ -109,6 +109,7 @@ form {
 .register-btn {
   /* display: inline-block; */
   width: 260px;
+  font-weight: 600;
   background-color: transparent;
   border-color: #F3F1E6;
   border-style: solid;
@@ -233,6 +234,9 @@ form {
   display: none;
 }
 
+#mob-loc-img {
+  display: none;
+}
 /* .welc-text-container {
   text-align: left;
   width: 90%;
@@ -459,7 +463,7 @@ form {
 .can-wat-tube-img-container {
   width: 90%;
   height: 400px;
-  background-image: url("images/canada-water-tube-img.jpg");
+  background-image: url("images/loc-img-can-water.jpg");
   background-position: center bottom;
   background-size: 622px 400px;
   overflow: hidden;
@@ -648,13 +652,15 @@ form {
 .wandle-text-section {
   width: 100%;
   /* height: 800px; */
-  background-image: url("images/couple-in-new-home-web.jpg");
+  background-image: url("images/couple-in-new-home-web.png");
   background-position: right top;
-  background-size: 2110px 1200px;
+  background-size: 2110px auto;
+
+  /* background-size: 2110px 1200px; */
   /* background-size: 100% auto; */
   overflow: hidden;
   background-repeat: no-repeat;
-  padding: 0;
+  padding-top: 0;
   /* margin-bottom: 3%; */
 }
 
@@ -664,7 +670,9 @@ form {
 
 .abt-wandle-transp-bg-color {
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 1));
+  background-image: none;
+  /* background-color: #4782A6; */
+  /* background-image: linear-gradient(to bottom, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 1)); */
   /* background-color: #1f4468; */
   /* opacity: 0.8; */
 }
@@ -678,7 +686,7 @@ form {
 
 .abt-wandle-body-div {
   color: #F3F1E6;
-  padding: 75px 100px 140px 100px;
+  padding: 75px 100px 0 100px;
 
   /* opacity: 1; */
 }
@@ -696,7 +704,7 @@ form {
 .foot-section {
   width: 100%;
   background-color: #4782A6;
-  padding-top: 0;
+  /* padding-top: 0; */
 }
 
 .footer {
@@ -752,8 +760,8 @@ form {
   }
 
   .welc-img-container {
-    height: 350px;
-    background-size: 544px 350px;
+    height: 370px;
+    background-size: 575px 370px;
   }
 
   .hlight-text-container {
@@ -795,6 +803,10 @@ form {
     font-size: 2.2rem;
   }
 
+  .welc-text-container {
+    padding-top: 10px;
+  }
+
   .welc-img-container {
     height: 330px;
     background-size: 513px 330px;
@@ -826,7 +838,7 @@ form {
   }
 
   .transp-intro-text-container {
-    padding-top: 5px;
+    padding-top: 15px;
   }
 
   .can-wat-tube-img-container {
@@ -848,7 +860,7 @@ form {
 
   .abt-wandle-body-div {
     /* padding: 3% 5% 4% 5%; */
-    padding: 75px 50px 140px 50px;
+    padding: 75px 50px 0 50px;
   }
 
   .footer {
@@ -899,6 +911,15 @@ form {
   }
 
   #coffee-img-col {
+    display: none;
+  }
+
+  #mob-loc-img {
+    display: initial;
+    margin-bottom: 70px;
+  }
+
+  #loc-img-col {
     display: none;
   }
 
@@ -961,6 +982,10 @@ form {
     margin-top: 70px;
     /* padding: 3% 0 3% 0; */
   }
+
+  /* .wandle-text-section {
+    background-size: 2110px auto;
+  } */
 
 }
 
@@ -1086,10 +1111,22 @@ form {
     height: 1700px;
   }
 
+  .foot-section {
+    padding-top: 0;
+  }
 
   .wandle-logo-abt {
     width: 200px;
     /* margin-top: 2%; */
+  }
+
+  .abt-wandle-body-div {
+    /* padding: 3% 5% 4% 5%; */
+    padding: 75px 25px 0 25px;
+  }
+
+  .footer {
+    padding: 0 35px 0 35px;
   }
 }
 
