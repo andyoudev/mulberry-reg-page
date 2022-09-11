@@ -654,13 +654,14 @@ form {
   /* height: 800px; */
   background-image: url("images/couple-in-new-home-web.png");
   background-position: right top;
-  background-size: 2110px auto;
+  background-size: 2110px 100%;
 
   /* background-size: 2110px 1200px; */
   /* background-size: 100% auto; */
   overflow: hidden;
   background-repeat: no-repeat;
   padding-top: 0;
+  padding-bottom: 0;
   /* margin-bottom: 3%; */
 }
 
@@ -686,7 +687,7 @@ form {
 
 .abt-wandle-body-div {
   color: #F3F1E6;
-  padding: 75px 100px 0 100px;
+  padding: 70px 100px 0 100px;
 
   /* opacity: 1; */
 }
@@ -1111,8 +1112,12 @@ form {
     height: 1700px;
   }
 
+  .wandle-text-section {
+    background-position: -1250px top;
+  }
+
   .foot-section {
-    padding-top: 0;
+    /* padding-top: 0; */
   }
 
   .wandle-logo-abt {
@@ -1133,6 +1138,11 @@ form {
 @media only screen and (max-width: 450px) {
   .mul-form-iframe {
     height: 1900px;
+  }
+
+  .landing-page-section {
+    height: 400px;
+    background-repeat: no-repeat;
   }
 }
 
